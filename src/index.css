@@ -10,15 +10,22 @@
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins.ttf') format('truetype');
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'RougeScript';
-  src: url('./assets/fonts/RougeScript.ttf') format('truetype');
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -41,7 +48,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
   padding: 1rem;
 }
 
@@ -57,10 +64,9 @@
 
 
 .portada__body__xv {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
-  font-family: 'RougeScript';
-  line-height: 0.75;
+  font-family: 'Raleway';
 }
 
 .portada__body__nq {
@@ -82,20 +88,20 @@
 }
 
 .portada__body__msg {
-  font-family: 'RougeScript';
-  font-size: 2rem;
+  font-family: 'Raleway';
+  font-size: 1.25rem;
   text-align: center;
-  line-height: 1;
 }
 
 .padres {
   display: flex;
-  padding: 3rem;
+  padding: 2rem;
   flex-direction: column;
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  gap: 1rem;
 }
 
 .padres__titulo {
@@ -112,17 +118,16 @@
 }
 
 .padres__p {
-  font-size: 2rem;
-  font-family: 'RougeScript';
+  font-size: 1.25rem;
+  font-family: 'Raleway';
   text-align: center;
 }
 
 .iglesia {
   display: flex;
-  padding: 3rem;
+  padding: 2rem;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--tertiary-color);
   gap: 1rem;
 }
 
@@ -134,10 +139,10 @@
 }
 
 .iglesia__nombre {
-  font-size: 2rem;
-  font-family: 'RougeScript';
+  font-size: 1.25rem;
+  font-family: 'Raleway';
   text-align: center;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 .iglesia__titulo {
@@ -149,11 +154,13 @@
 
 .iglesia__btn { 
   padding: 0.5rem 1rem;
-  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
   border-radius: 0.25rem;
-  font-family: 'Poppins';
-  width: 100%;
-  color: var(--primary-color);
+  font-family: 'Raleway';
+  width: 70%;
+  color: var(--tertiary-color);
+  display: block;
+  margin: 0 auto;
 }
 
 .fecha {
@@ -161,7 +168,7 @@
   padding: 2rem;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--tertiary-color);
+  background-color: var(--secondary-color);
   position: relative;
   overflow: hidden;
 }
@@ -183,7 +190,7 @@
 }
 
 .fecha__dia, .fecha__mes {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   padding: 0 1rem;
   border-top: 3px solid var(--primary-color);
   border-bottom: 3px solid var(--primary-color);
@@ -192,15 +199,15 @@
 }
 
 .fecha__dia_nro {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   font-size: 3rem;
-  font-family: 'RougeScript';
+  font-family: 'Raleway';
   font-weight: bold;
 }
 
 .fiesta {
   display: flex;
-  padding: 3rem;
+  padding: 2rem;
   flex-direction: column;
   justify-content: center;
   background-color: var(--secondary-color);
@@ -217,8 +224,8 @@
 }
 
 .fiesta__nombre {
-  font-size: 2rem;
-  font-family: 'RougeScript';
+  font-size: 1.25rem;
+  font-family: 'Raleway';
   text-align: center;
   color: var(--tertiary-color);
 }
@@ -232,11 +239,13 @@
 
 .fiesta__btn { 
   padding: 0.5rem 1rem;
-  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
   border-radius: 0.25rem;
-  font-family: 'Poppins';
-  width: 100%;
-  color: var(--primary-color);
+  font-family: 'Raleway';
+  width: 70%;
+  color: var(--tertiary-color);
+  display: block;
+  margin: 0 auto;
 }
 
 .fiesta__mrtneon {

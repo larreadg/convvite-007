@@ -15,7 +15,7 @@ export function Padres() {
                 <p className="padres__p">Lilian Cáceres</p>
             </section>
             <section>
-                <p className="padres__p">Alejandro Ayala</p>
+                <p className="padres__p">Toribio Morel</p>
             </section>
         </section>
     </>

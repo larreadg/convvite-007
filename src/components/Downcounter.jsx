@@ -47,20 +47,20 @@ function DownCounter({ fecha }) {
   return (
     <section className='flex gap-2 items-center justify-between p-4 w-full rounded-md bg-secondary h-24'>
       <section className='flex flex-col items-center'>
-        <p className='font-poppins text-white text-2xl'>{timeLeft.days}</p>
-        <span className='font-poppins text-sm neon' translate='no'>Días</span>
+        <p className='font-raleway text-white text-2xl'>{timeLeft.days}</p>
+        <span className='font-raleway text-sm neon' translate='no'>Días</span>
       </section>
       <section className='flex flex-col items-center'>
-        <p className='font-poppins text-white text-2xl'>{timeLeft.hours}</p>
-        <span className='font-poppins text-sm neon' translate='no'>Horas</span>
+        <p className='font-raleway text-white text-2xl'>{timeLeft.hours}</p>
+        <span className='font-raleway text-sm neon' translate='no'>Horas</span>
       </section>
       <section className='flex flex-col items-center'>
-        <p className='font-poppins text-white text-2xl'>{timeLeft.minutes}</p>
-        <span className='font-poppins text-sm neon' translate='no'>Minutos</span>
+        <p className='font-raleway text-white text-2xl'>{timeLeft.minutes}</p>
+        <span className='font-raleway text-sm neon' translate='no'>Minutos</span>
       </section>
       <section className='flex flex-col items-center'>
-        <p className='font-poppins text-white text-2xl'>{timeLeft.seconds}</p>
-        <span className='font-poppins text-sm neon' translate='no'>Segundos</span>
+        <p className='font-raleway text-white text-2xl'>{timeLeft.seconds}</p>
+        <span className='font-raleway text-sm neon' translate='no'>Segundos</span>
       </section>
     </section>
   )

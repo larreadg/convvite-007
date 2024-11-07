@@ -10,6 +10,7 @@ export default {
         howell: ['Howell', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         rouge: ['RougeScript', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
       },
       colors: {
         primary: {
